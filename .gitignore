@@ -1,0 +1,10 @@
+/.devenv/
+/.direnv/
+/.pre-commit-config.yaml
+/result
+/result-*
+
+*.aux
+*.log
+*.pdf
+*.toc
