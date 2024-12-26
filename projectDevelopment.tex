@@ -1,0 +1,128 @@
+\chapter{Project Development}\label{ch:project-development}
+
+This chapter provides an in-depth look into the development of Chronocademy, outlining the key aspects that contributed to its creation.
+The following sections will cover essential areas of the project, including product development, user experience design, developer experience, the technologies used, and the code architecture.
+
+Each of these areas played a critical role in shaping Chronocademy into a functional and user-friendly platform.
+From defining the product's core features and refining its usability to selecting the right tools and structuring the codebase, this chapter highlights the processes and decisions that guided the project from concept to completion.
+
+By exploring these topics, the reader will gain a comprehensive understanding of how the team approached the challenges of building Chronocademy and the methods they used to ensure a robust, scalable, and well-designed platform.
+
+\section{Product Development}\label{sec:productdevelopment}
+The development of Chronocademy began by defining, refining, and prioritizing its core aspects and features.
+This section outlines the step-by-step process undertaken to shape the product, ensuring it was both viable and aligned with the needs of its users.
+
+\subsection{Defining the Idea through the Business Model Canvas}\label{subsec:business-model-canvas}
+The first step in the product development journey was to define the core idea behind Chronocademy.
+To structure and validate this concept, the team utilized the Business Model Canvas framework.
+
+\begin{quote}
+    ``The Business Model Canvas is a strategic management and entrepreneurial tool.
+    It allows you to describe, design, challenge, invent, and pivot your business model.
+    This method from the bestselling management book Business Model Generation is applied in leading organizations and start-ups worldwide.''
+\end{quote}\cite{business-canvas-model}
+
+This tool helped identify the key components of the platform, including the value proposition, target customer segments, revenue streams, and cost structure.
+By analyzing these elements, the team was able to understand how Chronocademy would create, deliver, and capture value in a competitive landscape.
+The structured approach of the Business Model Canvas ensured that the idea was not only innovative but also practical and sustainable.
+
+\includegraphics[width=16cm]{business-canvas-model}
+
+\underline{Key resources:}
+\begin{itemize}
+\item Online platform infrastructure: Website development and maintenance for user accounts, course listings, scheduling, and video conferencing (maybe not this yet)
+\item Content management system (CMS): A system to allow instructors to upload course descriptions and materials
+\item Community management team: Answer to user requests, ensure a positive learning environment and moderate
+\end{itemize}
+
+\underline{Key activities:}
+\begin{itemize}
+\item Web platform development and maintenance: Develop and continuously update and improve the website platform for optimal user experience
+\item User acquisition: Marketing strategies to attract users
+\item Content moderation: Moderate courses to ensure quality and
+\item Payment processing: Implement a secure system for handling transactions
+\end{itemize}
+
+\underline{Key partnerships:}
+\begin{itemize}
+\item Video conferencing platform: Integrate a reliable video conferencing service for online lessons (Google)
+\item Educational institutions or businesses
+\item Payment processing companies: Integrate a secure payment processor
+\end{itemize}
+
+\underline{Value propositions:}
+\begin{itemize}
+\item Real-time learning face-to-face: Access to a wide range of skills and knowledge from instructors in real-time face-to-face
+\item Always up-to-date content
+\item Affordable learning: Main payment goes through a time-based exchange system
+\item Flexible learning schedules: Using calendars and through online video conferencing
+\item Networking: Opportunity to connect with a community of learners and instructors
+\item Earn learning time for instructors: Then can be used to acquire new skills and knowledge themselves
+\item Build a reputation as a skilled instructor: Thanks to students feedbacks and ratings
+\end{itemize}
+
+\underline{Customer relationships:}
+\begin{itemize}
+\item Self-service: Learners and instructors can work autonomous
+\item Community forum: Create a forum for learners and instructors to interact, ask questions, and share experiences
+\item Online user accounts: Users will create accounts to manage their learning time, browse courses, schedule lessons, and provide feedback
+\item Customer support: Offer email or chat support for users encountering technical difficulties, needing assistance or providing feedback
+\end{itemize}
+
+\underline{Customer segment:}
+\begin{itemize}
+\item Learners: Persons trying to acquire new knowledge through real-time instruction
+\item Instructors: Persons with expertise willing to share their knowledge and earn learning time
+\item Digital natives
+\end{itemize}
+
+\underline{Channels:}
+\begin{itemize}
+\item Website platform: Primary channel for user registration, course browsing, lesson scheduling, and video conferencing
+\item Social media: Used for marketing, promotion, and building a community around Chroncademy
+\item Educational blogs or partnerships: Collaborate with educational blogs or platforms to promote Chronacademy and reach potential learners
+\end{itemize}
+
+\underline{Cost structure:}
+\begin{itemize}
+\item Domain: Pay and maintain the internet domain over time
+\item Platform development and maintenance: Costs associated with website development, hosting, and ongoing maintenance
+\item Marketing and user acquisition: Costs for online advertising and social media marketing
+\item Content moderation: Costs associated with managing the course submission process and ensuring lessons quality
+\item Payment processing fees: Fees charged by payment processors for handling transactions
+\item Community management team: Costs associated with management of the online community
+\end{itemize}
+
+\underline{Revenue streams:}
+\begin{itemize}
+\item Premium model: It offers free Chrono, access to exclusive lessons scripts and a better advertisement for teachers
+\item Chrono transactions: Charge for transactions fees either for buying or selling Chronos
+\item Adds: Include adds (not very intrusive)
+\end{itemize}
+
+
+\subsection{Establishing the Brand: Colors, Logo, and Slogans}\label{subsec:establishing-the-brand:-colors-logo-and-slogans}
+With the foundation of the business model in place, the next focus was on establishing a unique and memorable brand identity for Chronocademy.
+The team selected a color palette that reflected the platform’s values of inclusivity, innovation, and growth.
+The logo was designed to be simple yet distinctive, incorporating elements that symbolized knowledge exchange and collaboration.
+Slogans were crafted to succinctly convey the mission of the platform, such as ``Learn.
+Teach.
+Grow.'' These branding efforts were crucial for creating a cohesive identity that resonated with the target audience and set Chronocademy apart in the market.
+
+\subsection{Understanding the Problem: User Interviews and Feature Mapping}\label{subsec:understanding-the-problem:-user-interviews-and-feature-mapping}
+To ensure that Chronocademy addressed a real and pressing need, the team conducted interviews with potential users.
+This exploratory phase involved gathering insights from individuals who were interested in learning new skills or sharing their expertise.
+The interviews revealed common pain points, such as the difficulty of finding reliable teachers, the high cost of learning platforms, and the challenges of managing multiple tools for teaching and learning.
+Using the feedback from these interviews, the team mapped user needs into actionable features for the platform.
+For instance, the need for affordability led to the time-based currency model, while the desire for seamless teaching experiences inspired the integration of scheduling and video conferencing tools.
+This process ensured that every feature of Chronocademy was directly tied to solving a specific user problem.
+
+\subsection{Prioritizing Features with the Lean Startup Approach}\label{subsec:prioritizing-features-with-the-lean-startup-approach}
+Once the features were identified, the team prioritized them using the Minimum Viable Product (MVP) methodology from the Lean Startup approach.
+This method emphasized building a version of Chronocademy that included only the essential features needed to deliver value to users and validate the concept.
+Features such as the time-based credit system, user profiles, and scheduling integration were classified as high priority and included in the initial release.
+Lower-priority features, such as advanced customization options or gamification elements, were placed on a roadmap for future iterations.
+This approach allowed the team to focus on delivering a functional and impactful product in a shorter time frame while leaving room for growth and improvement based on user feedback.
+
+
+
