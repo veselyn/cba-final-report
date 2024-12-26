@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6caf26e0-7330-4157-995e-bc74d7df34fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;juaninicolai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/veselyn/cba-final-report.git&quot;,
+    &quot;accountId&quot;: &quot;6c194e2e-2de5-452a-ab91-ee021a77e1d7&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2q50L1Zwt3t2OgSUcQkQ14A6t5y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;jdk.selected.LATEX_MODULE_TYPE&quot;: &quot;LaTeX Docker SDK&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="LaTeX.main">
+    <configuration name="main bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs>
+          <env name="BIBINPUTS" value="$PROJECT_DIR$" />
+          <env name="BSTINPUTS" value="$PROJECT_DIR$/../cba-final-report:" />
+        </envs>
+        <main-file>$PROJECT_DIR$/main.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/out</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="cba-final-report" />
+      <working_directory value="$PROJECT_DIR$/report" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$/report" />
+      <filePath value="$PROJECT_DIR$/report" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="cba-final-report" />
+      <working_directory value="$PROJECT_DIR$/report" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$/report" />
+      <filePath value="$PROJECT_DIR$/report" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/main.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>{projectDir}/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>TEXLIVE</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="LaTeX.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6caf26e0-7330-4157-995e-bc74d7df34fb" name="Changes" comment="" />
+      <created>1733937069157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733937069157</updated>
+      <workItem from="1733937070276" duration="2310000" />
+      <workItem from="1734275023458" duration="35000" />
+      <workItem from="1734275343729" duration="3119000" />
+      <workItem from="1734693213861" duration="37000" />
+      <workItem from="1734693274015" duration="22427000" />
+      <workItem from="1735217927890" duration="42000" />
+    </task>
+    <task id="LOCAL-00001" summary="add full name">
+      <option name="closed" value="true" />
+      <created>1734275461673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734275461673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add references">
+      <option name="closed" value="true" />
+      <created>1734277242090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734277242090</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add abstract">
+      <option name="closed" value="true" />
+      <created>1734698058901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734698058901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add package">
+      <option name="closed" value="true" />
+      <created>1734702295833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734702295833</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add label">
+      <option name="closed" value="true" />
+      <created>1734702310956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734702310956</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add introduction">
+      <option name="closed" value="true" />
+      <created>1734702319670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734702319670</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add stakeholder analysis">
+      <option name="closed" value="true" />
+      <created>1734957933106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734957933106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="replace image">
+      <option name="closed" value="true" />
+      <created>1734958412233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734958412233</updated>
+    </task>
+    <task id="LOCAL-00009" summary="extract abstract">
+      <option name="closed" value="true" />
+      <created>1734958428580</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734958428580</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish problem analysis / business description">
+      <option name="closed" value="true" />
+      <created>1734980388469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734980388469</updated>
+    </task>
+    <task id="LOCAL-00011" summary="scaffold project development section">
+      <option name="closed" value="true" />
+      <created>1734980530133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734980530133</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="add full name" />
+    <MESSAGE value="add references" />
+    <MESSAGE value="add abstract" />
+    <MESSAGE value="add package" />
+    <MESSAGE value="add label" />
+    <MESSAGE value="add introduction" />
+    <MESSAGE value="add stakeholder analysis" />
+    <MESSAGE value="replace image" />
+    <MESSAGE value="extract abstract" />
+    <MESSAGE value="finish problem analysis / business description" />
+    <MESSAGE value="scaffold project development section" />
+    <option name="LAST_COMMIT_MESSAGE" value="scaffold project development section" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
