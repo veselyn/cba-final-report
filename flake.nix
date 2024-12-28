@@ -56,24 +56,21 @@
           };
         };
 
-        packages.default = pkgs.stdenv.mkDerivation {
-          name = "cba-final-report";
+        packages.build-report = pkgs.writeShellApplication {
+          name = "build-report";
+          runtimeInputs = [
+            texlive
+            pkgs.coreutils
+            pkgs.git
+          ];
+          text = ''
+            root=$(git rev-parse --show-toplevel)
+            cd "$root"
 
-          src = builtins.path {
-            path = ./.;
-            name = "cba-final-report";
-          };
+            mkdir -p build
 
-          nativeBuildInputs = [texlive pkgs.libgcc];
-
-          buildPhase = ''
-            xelatex main.tex
-          '';
-
-          installPhase = ''
-            mkdir -p "$out"
-
-            mv main.pdf "$out/Final-Project-Report.pdf"
+            latexmk -xelatex main
+            mv main.pdf build/Final-Project-Report.pdf
           '';
         };
       };

@@ -4,10 +4,17 @@
 /result
 /result-*
 
+/build/
+
 *.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
 *.log
-*.pdf
+*.out
 *.toc
+*.xdv
 
 .idea/
 *.iml

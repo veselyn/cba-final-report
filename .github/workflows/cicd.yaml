@@ -34,13 +34,13 @@ jobs:
           purge-primary-key: never
 
       - name: Build Artifacts
-        run: nix build
+        run: nix run .#build-report
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           path: |
-            ./result/*
+            ./build/*
 
   release:
     name: Release
