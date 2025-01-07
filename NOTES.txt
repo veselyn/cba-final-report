@@ -1,0 +1,9 @@
+Couldn’t project development be stretched? We could write about:
+
+* Database migrations
+* Database seeding
+* Code generation
+* Docker
+* TypeScript
+* SSR/CSR
+* Static code analysis (eslint)
