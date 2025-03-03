@@ -312,16 +312,16 @@ Also, since it’s online, there isn’t commuting time either for the teacher o
 
 \subsection{Prioritizing Features with MoSCoW Priority Matrix and MVP with Lean Startup Approach}\label{subsec:prioritizing-features-with-the-lean-startup-approach}
 After identifying potential features through user research and competitive analysis, the team needed to determine which ones were essential for the initial version of Chronocademy.
-A feature list served as the blueprint for the platform, detailing everything Chronocademy needed to do—not only the core user-facing features but also the less visible technical requirements, such as single sign-on and potential API integrations like Google Maps.
+A feature list served as the blueprint for the platform, detailing everything Chronocademy needed to do—not only the core user-facing features but also the less visible technical requirements, such as single sign-on and potential API integrations like Google Meet.
 This comprehensive approach ensured that both functional and technical needs were accounted for during development.
 To prioritize these features, the team applied the Minimum Viable Product (MVP) methodology from the Lean Startup approach.
 This method emphasized delivering a functional product with the core features necessary to provide value to users and validate the concept, while deferring non-essential elements to future iterations.
 
 \begin{quote}
-    A core component of Lean Startup methodology is the build-measure-learn feedback loop.
+    ``A core component of Lean Startup methodology is the build-measure-learn feedback loop.
     The first step is figuring out the problem that needs to be solved and then developing a minimum viable product (MVP) to begin the process of learning as quickly as possible.
     Once the MVP is established, a startup can work on tuning the engine.
-    This will involve measurement and learning and must include actionable metrics that can demonstrate cause and effect question.
+    This will involve measurement and learning and must include actionable metrics that can demonstrate cause and effect question.''
 \end{quote}\cite{leanStartUp}
 
 By focusing on the essentials, the team was able to accelerate the development timeline and prepare for an earlier launch.
@@ -331,9 +331,10 @@ This method recognizes that while all features may seem important, only a subset
 The ``Must have'' category represents the critical requirements without which the project would fail—these form the foundation of the MVP. For Chronocademy, the features that fell into this category and were prioritized for the initial release included:
 
 \begin{itemize}
-    \item The time-based credit system, which forms the foundation for transactions,
+    \item Sign-up and login functionality,
+    \item Course listings
     \item User profiles, enabling learners and teachers to interact, and
-    \item Scheduling integration, which facilitates seamless class bookings.
+    \item Enable a communication channel between teachers and students.
 \end{itemize}
 Features categorized as ``Should have'' were considered valuable but not critical for the initial launch and were scheduled for future development.
 ``Could have'' features, such as advanced customization options and gamification elements, were acknowledged as desirable but non-essential and placed on a long-term roadmap.
@@ -346,3 +347,28 @@ For instance, if competitors lacked flexible scheduling options, prioritizing th
 
 This combined approach—leveraging both the MVP methodology and the MoSCoW matrix—not only allowed the team to focus on delivering core functionality quickly but also provided a structured framework for ongoing improvement.
 Future feature development will be guided by user engagement metrics, feedback from early adopters, and the platform’s growth trajectory, ensuring that each new addition directly addresses user needs and enhances the Chronocademy experience.
+\newline\newline
+\includegraphics[width=14cm]{moscow}
+
+\subsubsection{MoSCoW Priority Matrix explained:}
+After a thorough evaluation of the platform's requirements, we identified the essential features necessary to launch a Minimum Viable Product (MVP). These ``must-have'' features are critical for delivering core functionality and ensuring a seamless user experience.
+\paragraph{Features included in the "Must Have" column:}
+\begin{enumerate}
+\item Authentication – Essential for user access and security.
+\item Chat, Messages – Allows users to communicate directly on the platform.
+\item Search Filter – Enables users to find specific skills or people efficiently.
+\item User Profile Customization (Bio, Skills) – Allows users to showcase their skills and personal details.
+\item Home Page (Display Users) – Provides an overview of available users for skill exchange.
+\item Video Conference (Meets) – Facilitates virtual communication and lessons.
+\item Request a Feature – Allows users to suggest improvements.
+\item Report a Bug – Enables users to flag technical issues for better maintenance.
+\end{enumerate}
+
+\subparagraph{Decision on MVP Scope:}
+Upon defining these critical features, we recognized that our initial vision for the MVP was too extensive.
+To maintain focus and deliver a functional product efficiently, we decided not to include flexible payments or transactions (i.e., converting Chrono currency to cash) in this iteration.
+Instead, our primary objective is to develop a simple skills exchange platform where users can connect, share their expertise, and engage in mutually beneficial exchanges.
+This streamlined approach allows us to validate user interest and assess the platform's viability without the complexity of integrated financial transactions.
+If we observe strong engagement and positive feedback from our user base, we will invest further resources to expand the platform.
+Future iterations may incorporate additional features from the ``Should Have'', ``Could Have'', and ``WLTHBWH'' categories, including advanced payment solutions, calendar integration, and premium subscription features.
+By focusing on the core exchange functionality, we aim to deliver a robust and user-friendly platform while remaining agile and responsive to market demands.
