@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/veselyn/cba-final-report/compare/v1.0.1...v1.1.0) (2025-03-03)
+
+
+### Features
+
+* formatting ([f40cedc](https://github.com/veselyn/cba-final-report/commit/f40cedc62675d36b13e3db88cbf0ee9b07ee9f9d))
+
 ## [1.0.1](https://github.com/veselyn/cba-final-report/compare/v1.0.0...v1.0.1) (2025-01-02)
 
 
