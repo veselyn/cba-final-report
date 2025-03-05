@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/veselyn/cba-final-report/compare/v1.1.1...v1.1.2) (2025-03-05)
+
+
+### Bug Fixes
+
+* add double diamond section ([71bb037](https://github.com/veselyn/cba-final-report/commit/71bb037cd482c4456126580b15ca412f387fb862))
+* finish value proposition canvas section ([ad8481d](https://github.com/veselyn/cba-final-report/commit/ad8481d9b086e370a5a8da6ecc69bee50a283900))
+* re-order UX section ([a559685](https://github.com/veselyn/cba-final-report/commit/a559685a457ea6980c40b0004ea757811cbb1aa1))
+* references ([d33d7c0](https://github.com/veselyn/cba-final-report/commit/d33d7c01dd7aa9bc24e37d297d65a34d1a659e99))
+* start user personas section ([e4fb5a2](https://github.com/veselyn/cba-final-report/commit/e4fb5a29048fb1c2e4a437a2518e5d484cfb6466))
+* value proposition canvas formatting ([0db6a87](https://github.com/veselyn/cba-final-report/commit/0db6a87ad7626b029fac9879f373b76c2c3152d7))
+
 ## [1.1.1](https://github.com/veselyn/cba-final-report/compare/v1.1.0...v1.1.1) (2025-03-04)
 
 
