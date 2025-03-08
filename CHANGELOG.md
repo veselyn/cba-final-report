@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/veselyn/cba-final-report/compare/v1.1.2...v1.1.3) (2025-03-07)
+
+
+### Bug Fixes
+
+* grammar ([69106a6](https://github.com/veselyn/cba-final-report/commit/69106a6273cbe25240948ec009ef4d29eeffb1f4))
+
 ## [1.1.2](https://github.com/veselyn/cba-final-report/compare/v1.1.1...v1.1.2) (2025-03-05)
 
 
