@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.1](https://github.com/veselyn/cba-final-report/compare/v1.2.0...v1.2.1) (2025-03-08)
+
+
+### Bug Fixes
+
+* add brand guidelines ([34cbc46](https://github.com/veselyn/cba-final-report/commit/34cbc46a443d312ca4a29b06174230a2ae076fbf))
+* add reusable components part ([5903a70](https://github.com/veselyn/cba-final-report/commit/5903a70cb006f286069e80e47d84e249d5e03def))
+* add reusable components to appendix ([d840a43](https://github.com/veselyn/cba-final-report/commit/d840a436bcb60bac1969d028427108f634f5107e))
+* add TODO ([c6ce330](https://github.com/veselyn/cba-final-report/commit/c6ce330b04d76b98f08ac6a9b9a3113907cb23e7))
+* add wireframe title ([573134f](https://github.com/veselyn/cba-final-report/commit/573134f7e8c3397a811cf57c670b64ac532fa06d))
+* figures and quotes ([d96f9a9](https://github.com/veselyn/cba-final-report/commit/d96f9a9224f86518a65e436a7aa7852fc7c2330c))
+* format ([56fbf61](https://github.com/veselyn/cba-final-report/commit/56fbf61a10f96d62526b48b19277a860a250e507))
+* make image a figure ([c659cf6](https://github.com/veselyn/cba-final-report/commit/c659cf644537e8ad2638f77b6cda73c2dcc81841))
+
 ## [1.2.0](https://github.com/veselyn/cba-final-report/compare/v1.1.3...v1.2.0) (2025-03-08)
 
 
