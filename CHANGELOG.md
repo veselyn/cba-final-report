@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.0](https://github.com/veselyn/cba-final-report/compare/v1.1.3...v1.2.0) (2025-03-08)
+
+
+### Features
+
+* add user flow diagrams ([4f00d96](https://github.com/veselyn/cba-final-report/commit/4f00d963c894dcd44c8ec94d2bc3ca3590cd152e))
+* move images ([52c6ebf](https://github.com/veselyn/cba-final-report/commit/52c6ebf6910bfe3b87cb760db7230053b3a83137))
+* ready to star UI part ([1531de4](https://github.com/veselyn/cba-final-report/commit/1531de4eb9d3e039b6d04977a0da28ae7f2eb785))
+* start user flow section ([a17106e](https://github.com/veselyn/cba-final-report/commit/a17106e2c809d4203ea5b35c13a4b59e366cbff4))
+
+
+### Bug Fixes
+
+* finish user personas part ([f2d638d](https://github.com/veselyn/cba-final-report/commit/f2d638de26b0667d26b763ddbd5a6a5d1d2ed40e))
+* introduce user flow instead of journey map ([526b497](https://github.com/veselyn/cba-final-report/commit/526b49771b9d0cce5d32d3aca3c8965f318f779e))
+* move closing text up ([79ee2d9](https://github.com/veselyn/cba-final-report/commit/79ee2d9842e93b871e18765776bb57a70aeb85f1))
+* remove wrong bib package ([6f6f16d](https://github.com/veselyn/cba-final-report/commit/6f6f16def3edbf36f5336ddcfe6557a5693e06be))
+* show reference's names on document ([148bbf8](https://github.com/veselyn/cba-final-report/commit/148bbf816cdc603825367e2841f91a03fa4ead8f))
+
 ## [1.1.3](https://github.com/veselyn/cba-final-report/compare/v1.1.2...v1.1.3) (2025-03-07)
 
 
