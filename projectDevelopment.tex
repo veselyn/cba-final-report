@@ -584,26 +584,27 @@ Using this tool was very helpful because it allowed us to set the base for the d
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=10cm]{user-personas/learner-only}
+    \includegraphics[width=10cm]{learner-only}
     \caption{A 29-year-old sales professional looking to learn new skills in their free time.}\label{fig:figure}
 \end{figure}
 \begin{figure}[t]
     \centering
-    \includegraphics[width=10cm]{user-personas/teacher-only}
+    \includegraphics[width=10cm]{teacher-only}
     \caption{A 35-year-old language tutor seeking to expand his online teaching business.}\label{fig:figure2}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=10cm]{user-personas/teacher-and-learner}
+    \includegraphics[width=10cm]{teacher-and-learner}
     \caption{A 30-year-old language teacher interested in both teaching and learning other things.}\label{fig:figure3}
 \end{figure}
 \begin{figure}[b]
     \centering
-    \includegraphics[width=10cm]{user-personas/casual-teacher}
+    \includegraphics[width=10cm]{casual-teacher}
     \caption{ 29-year-old Software Engineer teaching for fun.}\label{fig:figure4}
 \end{figure}
 
 \clearpage
+
 \subsubsection{User Flows}\label{subsubsec:user-flows}
 As mentioned before, the team prioritized the user flows instead of user journey maps.
 Often, these tools are used interchangeably, but they have different purposes.
@@ -612,6 +613,24 @@ While they share the common objective of understanding and improving user experi
 A user journey represents the sequence of steps a user takes to accomplish a high-level goal.
 This process is typically documented through journey maps, which visualize the user's path across different touch-points.
 In contrast, a user flow focuses on a more granular objective within a single product, offering a detailed view of how users interact with specific features or tasks.
-Artifacts associated with user flows include wireflows, flowcharts, and task diagrams, which outline the exact steps and decision points users encounter.
+Artifacts associated with user flows include wireflows, flowcharts, and task diagrams, which outline the exact steps and decision points users encounter.\newline
 User flows are particularly valuable because they promote user-centered design by clarifying what the product should do, the sequence in which tasks should be performed, and the information that must be presented at each stage.
-This structured approach not only enhances the user experience but also accelerates development and reduces errors by providing a clear and logical framework for designers and developers to follow.\cite[User Journeys vs User Flows]{userJourneys}
+This structured approach not only enhances the user experience but also accelerates development and reduces errors by providing a clear and logical framework for designers and developers to follow.\cite[User Journeys vs User Flows]{userJourneys}\newline
+
+During the ``discovery'' and ``define'' phases of the Double Diamond framework, the team realised that one of the most key user journeys on the platform, was the sig-up journey.
+One of the the reason for this is that the sign-up process is the first interaction a user has with the platform, and it sets the tone for the rest of their experience.
+But also, it is in this interaction that the user will provide the most important information about themselves, like their skills, their interests and what type of user they might be.
+
+For us to understand how to design and develop this main part of the website, we did a high level sign-up user flow and a kind of ``internal'' user flow, within the sign-up process, to comprehend the different steps and decisions the user would have to make to complete the sign-up process.
+These user flows were a good starting point to understand how we could gather all the necessary information from our users to create their profile and internally understand what type of user they are.
+Also, it was a good way to cover all the different decisions the user would have to make to complete the sign-up journey.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{sign-up-flow}
+    \caption{High level sign-up user flow.}\label{fig:figure5}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm]{fill-in-skills-flow}
+    \caption{Fill in skills user flow - within high level flow}\label{fig:figure6}
+\end{figure}
