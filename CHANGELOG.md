@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.3](https://github.com/veselyn/cba-final-report/compare/v1.2.2...v1.2.3) (2025-03-09)
+
+
+### Bug Fixes
+
+* figure number ([bb138ab](https://github.com/veselyn/cba-final-report/commit/bb138abcd0c25278b29a22c017dbb6ca02e7b5c6))
+* finish chapter 3 ([2ec159c](https://github.com/veselyn/cba-final-report/commit/2ec159c1ee2e62641706022d1b513ee935aedaa7))
+* format references ([1e4b8e1](https://github.com/veselyn/cba-final-report/commit/1e4b8e170d049fe129beb16ce870e3c2a82057be))
+* remove unused references ([fe88bd2](https://github.com/veselyn/cba-final-report/commit/fe88bd2d7447b58581f447f7ac02892c66c23be5))
+* rename chapter and "Development" references to "Design" references. ([2e35024](https://github.com/veselyn/cba-final-report/commit/2e35024bf44360e78228ef114cc4cbff661db15d))
+* rename file ([1de7a2c](https://github.com/veselyn/cba-final-report/commit/1de7a2cbedc549f55bde0f080cd17651c2930667))
+
 ## [1.2.2](https://github.com/veselyn/cba-final-report/compare/v1.2.1...v1.2.2) (2025-03-09)
 
 
