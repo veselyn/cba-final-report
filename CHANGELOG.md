@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.2](https://github.com/veselyn/cba-final-report/compare/v1.2.1...v1.2.2) (2025-03-09)
+
+
+### Bug Fixes
+
+* add wireframe section ([9d79a58](https://github.com/veselyn/cba-final-report/commit/9d79a5869cdd77dd6ebc9b418be46a73cb906622))
+* begin wireframe section ([43272a9](https://github.com/veselyn/cba-final-report/commit/43272a930bbe7b701cdcf05005b1ff48eb72a70d))
+* convert images into figures ([7f05ed2](https://github.com/veselyn/cba-final-report/commit/7f05ed28ac92629d6bc216c8b33caef4dcf115ad))
+* convert images into figures ([00285eb](https://github.com/veselyn/cba-final-report/commit/00285ebaa93830521ff3ea48fdb40de080906e56))
+* convert images into figures ([f1da5a8](https://github.com/veselyn/cba-final-report/commit/f1da5a8ac1075cb1722c46fc85a7a83af763f557))
+* convert images into figures ([ab35691](https://github.com/veselyn/cba-final-report/commit/ab35691d2eaa396e22191d1a211f4681ad93016d))
+* convert images into figures ([5dd78f4](https://github.com/veselyn/cba-final-report/commit/5dd78f4ab17a74006f07a0c7437345fd240cdae7))
+* convert images into figures ([d9c70e3](https://github.com/veselyn/cba-final-report/commit/d9c70e3ca8b430a9fe782c65049f829384158b24))
+* convert images into figures ([14a0636](https://github.com/veselyn/cba-final-report/commit/14a06369e972da0994cc6cd5186e3684c7fd8faa))
+* figure numbers ([54f5e9b](https://github.com/veselyn/cba-final-report/commit/54f5e9b898ed3e6087e406c05018ac77a6f12fa0))
+* finish wireframe section ([1a7b080](https://github.com/veselyn/cba-final-report/commit/1a7b08095bf2406d31b62b4559b89ff13448b184))
+
 ## [1.2.1](https://github.com/veselyn/cba-final-report/compare/v1.2.0...v1.2.1) (2025-03-08)
 
 
