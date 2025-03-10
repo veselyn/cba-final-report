@@ -1,9 +1,18 @@
 Couldn’t project development be stretched? We could write about:
 
-* Database migrations
-* Database seeding
-* Code generation
-* Docker
-* TypeScript
-* SSR/CSR
-* Static code analysis (eslint)
+Tech Stack:
+- EsLint
+- Prettier
+- TypeScript
+- Docker compose
+- Git
+- GitHub Actions
+- Postgres
+- Kysely (migrations + seeding + query builder + code generation)
+- NextJs (SSR + CSR)
+- TailwindCSS
+- ShadCN (ui components)
+
+* why we have not followed the style guide?
+* Vesie's argument: "I don't like the style guide"
+* Vesie's argument: we wanted to move fast, we didnt care that much about the design, after we have an mvp, adapting the style guide to our product should be easier and faster because we have a centralised place to configure the design: edit component in the shadcn library under tailwind.config.ts
