@@ -1,4 +1,7 @@
-Couldn’t project development be stretched? We could write about:
+Vesie's TODO:
+1. give feedback about UX/UI section (tuesday)
+2. prepare code snippets for each item on below list (thursday)
+3. prepare a code snippet for one part of the code we want to showcase (thursday)
 
 Tech Stack:
 - EsLint
