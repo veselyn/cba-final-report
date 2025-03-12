@@ -1,0 +1,27 @@
+\begin{minted}[linenos,
+               numbersep=5pt,
+               gobble=2,
+               frame=lines,
+               framesep=2mm]{yaml}
+volumes:
+  pgdata:
+
+services:
+  postgres:
+    image: postgres:17-bookworm
+    expose:
+      - 5432
+    ports:
+      - "127.0.0.1:5432:5432"
+    environment:
+      POSTGRES_DB: chronocademy
+      POSTGRES_USER: chronocademy
+      POSTGRES_PASSWORD: chronocademy
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U chronocademy"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+\end{minted}
