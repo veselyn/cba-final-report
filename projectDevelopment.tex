@@ -1,0 +1,91 @@
+\chapter{Project Development}\label{ch:project-development}
+
+In this chapter the reader will find a detailed explanation of the technology stack used in the project, some code snippets we believed are worth explaining, and also a description of our ways of working and developing as team.
+
+\section{Technology Stack}\label{sec:tecnology-stack}
+
+In this section, we will cover all the technologies used in the project, explaining what they are, how they were implemented in the codebase and the benefit they brought to the project.\ These brief explanations will be built upon the technologies documentation and the team's experience using them.
+
+\subsection{ESLint}\label{subsec:eslint}
+
+ESLint is a powerful utility designed to detect and resolve issues in JavaScript code.\ The team opted to incorporate ESLint into their project because it helps identify errors and maintain coding standards, ensuring the code remains clean, uniform, and dependable.\ Its seamless integration with the existing technology stack and extensive configurability allows the team to adapt rules and guidelines to meet their unique requirements.
+
+By scanning the codebase, ESLint detects patterns that may signal potential problems.\ It can highlight common mistakes such as unused variables, missing semicolons, and other errors that could lead to bugs or inconsistencies.\ Additionally, it offers a broad set of rules that can be customized to enforce particular coding practices, including indentation styles, naming conventions, and documentation guidelines.\cite[ESLint]{eslint}
+
+Implementing ESLint enabled the team to enhance the quality and stability of their code, making future maintenance and debugging more straightforward.\ It also promoted consistency throughout the project, facilitating collaboration and improving code comprehension among team members.\ Overall, ESLint proved to be an essential tool for preserving the integrity and long-term maintainability of the project's codebase.
+
+\subsection{Prettier}\label{subsec:prettier}
+
+Prettier is a code formatter that enforces a consistent coding style across a project.\ It works by parsing the code and reformatting it according to a defined set of configurable rules.\ With support for various code editors and IDEs, Prettier seamlessly integrates into the development workflow.\cite[Prettier]{prettier}
+
+In this project, the team utilized Prettier to format their TypeScript, JavaScript, and CSS code.\ By adopting Prettier, the team enhanced the readability and maintainability of the codebase.\ Automating the formatting process reduced manual effort and saved time.\ Furthermore, the consistent code style simplified collaboration and improved code comprehension.\ Overall, Prettier proved to be an indispensable tool for maintaining a uniform and polished codebase.
+
+\subsection{TypeScript}\label{subsec:typescript}
+
+TypeScript is a statically typed version of JavaScript that enhances code quality and developer productivity.\ It adds optional static types, allowing developers to catch errors at compile time rather than runtime.\ TypeScript is compatible with JavaScript and can be gradually integrated into existing projects.\ The team adopted TypeScript to improve code maintainability since it static typing helped catch errors early.\cite[TypeScript]{typescript}
+
+Using TypeScript led to clearer, more predictable code, improving collaboration and making the codebase easier to maintain.\ The enhanced type-checking reduced runtime errors and increased confidence when refactoring.
+
+\subsection{Docker compose}\label{subsec:docker-compose}
+
+Docker Compose is a tool that simplifies managing multi-container Docker applications.\ It allows developers to define and configure services, networks, and volumes in a single docker-compose.yml file, making it easier to set up and manage environments.\ In this project, the team used Docker Compose to streamline the database set-up for local development.\ By defining configurations in one place, they ensured consistency across development and production environments.\cite[Docker Compose]{dockerCompose}
+
+Using Docker Compose improved efficiency by reducing setup time.\ It also enhanced collaboration by providing a reproducible environment, making it easier for team members to work on the project.
+
+\subsection{Git}\label{subsec:git}
+
+Git is a distributed version control system that tracks changes in code and facilitates collaboration.\ It allows developers to manage code history, work on multiple features simultaneously, and revert to previous versions when needed.\ In this project, the team used Git to track changes, manage branches, and collaborate efficiently.\ The landing page was developed on the master branch following `trunk-based development` practices.\ The rest of the platform was developed on a separate branch, called `develop` and merged into the main codebase once it was ready.\cite[Git]{git}
+
+\subsection{GitHub Actions}\label{subsec:github-actions}
+
+GitHub Actions is a CI/CD (Continuous Integration and Continuous Deployment) tool that automates workflows directly within a GitHub repository.\ It allows developers to define custom workflows using YAML files, automating tasks like testing, building, and deploying code.\ In this project, the team used GitHub Actions to automate code quality checks, run tests, and deploy applications.\ Workflows were triggered by events such as pull requests and merges, ensuring consistent and reliable automation throughout the development process.\cite[GitHub Actions]{githubActions}
+
+GitHub Actions improved efficiency by reducing manual tasks and catching issues early through automated testing.\ It also enhanced collaboration by providing clear feedback on code changes, ensuring a smoother and more reliable development cycle.
+
+\subsection{Postgres}\label{subsec:postgres}
+
+Postgres is a powerful, open-source relational database management system known for its reliability, scalability, and advanced features.\ It supports complex queries, data types, and ACID compliance, ensuring data integrity and efficient performance.\ In this project, the team used Postgres to store and manage application data.\ It was chosen for its robust support of structured data, efficient indexing, and ability to handle large datasets.\ It is also one of the most popular databases in the industry, making it easier to find resources and support.\cite[Postgres]{postgres}
+
+Using Postgres improved data reliability, optimized performance, and ensured the system could scale as the application grew.\ It became a crucial component for managing and maintaining structured data throughout the project.
+
+\subsection{Kysely}\label{subsec:kysely}
+
+Kysely is a type-safe SQL query builder for TypeScript that allows developers to interact with databases while maintaining strong type safety.\ It provides a flexible and intuitive API for writing SQL queries without sacrificing type-checking, ensuring fewer runtime errors and better developer productivity.\ In this project, the team used Kysely to interact with their PostgreSQL database.\ Its type-safe approach ensured accurate database queries and minimized common mistakes.\ Using Kysely improved the development process by providing a safer, more readable way to interact with the database.\ It also enhanced maintainability by reducing query errors and simplifying database operations.\cite[Kysely]{kysely}
+
+\subsubsection{Kysely migrations}\label{subsubsec:kysely-migrations}
+
+Kysely supports database migrations, allowing developers to manage schema changes systematically.\ Migrations are defined using TypeScript files, which apply changes like creating tables, altering columns, or seeding initial data.\ In this project, the team used Kysely migrations to track and apply database schema changes consistently.\ Each migration was version-controlled, ensuring smooth transitions between schema updates and making it easier to maintain database integrity across environments.
+
+\subsubsection{Kysely seeds}\label{subsubsec:kysely-seeds}
+
+Kysely provides a straightforward approach to seeding databases, allowing developers to populate tables with initial or test data.\ This is useful for setting up development environments.\ The team used Kysely seeding to pre-fill the database with essential data for local development and automated testing.\ This ensured a consistent starting point for new environments and improved test reliability.
+
+\subsubsection{Kysely query builder}\label{subsubsec:kysely-query-builder}
+
+Kysely's query builder allows developers to construct SQL queries using a fluent, type-safe API. It supports complex operations such as joins, subqueries, and transactions while maintaining strong TypeScript typing.\ In this project, the team relied on the Kysely query builder to perform database operations like inserting, updating, and querying data.\ Its type-safe approach reduced query-related bugs and improved code clarity.
+
+The Kysely query builder enhanced productivity by allowing the team to write complex queries without losing type safety.\ This led to fewer runtime errors and improved confidence in database operations.
+
+\subsubsection{Kysely code generation}\label{subsubsec:kysely-code-generation}
+
+Kysely supports code generation to create TypeScript types from existing database schemas.\ This ensures that the query builder is fully type-safe and aligns with the database structure.\ The team used Kysely's code generation tool to automatically generate TypeScript types from the PostgreSQL schema.\ This ensured that database changes were reflected in the codebase, reducing the risk of mismatches between the database and application code.
+
+Kysely code generation improved type accuracy, reduced manual type maintenance, and ensured database schema changes were reflected throughout the codebase, enhancing overall code reliability.
+
+\subsection{NextJs (SSR + CSR)}\label{subsec:nextjs-(ssr-+-csr)}
+
+Next.js is a React-based web framework that enables server-side rendering (SSR), static site generation (SSG), and client-side rendering.\ It is designed to optimize performance, improve SEO, and provide a seamless developer experience through its built-in features like API routes, file-based routing, and image optimization.\ In this project, the team used Next.js to build a fast, scalable web application.\ We leveraged its hybrid rendering capabilities to deliver dynamic content efficiently while maintaining excellent performance.\ The framework’s new ``server actions'' feature was used to handle server-side logic without needing a separate backend service.\cite[Next.js]{nextjs}
+
+Next.js improved the development process by providing an intuitive structure, enhancing page load speeds, and simplifying both frontend and backend integration.\ It became a crucial tool for building a responsive and performant web application.\ Among all the other frameworks in the industry, the team picked this one because of it's popularity which makes it easier to find resources and support.
+
+\subsection{TailwindCSS}\label{subsec:tailwindcss}
+
+Tailwind CSS is a utility-first CSS framework that allows developers to build modern, responsive user interfaces quickly.\ It provides low-level utility classes for styling, enabling rapid development without writing custom CSS. In this project, the team used Tailwind CSS to design and style the application's user interface.\ Its utility-based approach allowed for consistent styling and faster development while maintaining a clean and maintainable codebase.\cite[TailwindCSS]{tailwind}
+
+Using Tailwind CSS improved development speed, ensured design consistency, and reduced the need for custom CSS. It became an essential tool for creating a responsive, visually cohesive user interface.
+
+\subsection{ShadCN (ui components)}\label{subsec:shadcn-(ui-components)}
+
+ShadCN (UI) is a modern component library built on top of Radix UI and Tailwind CSS. It provides a collection of accessible, customizable components designed for seamless integration into Next.js and other React-based projects.\ In this project, the team used ShadCN to implement common UI elements like buttons, forms, and dialogs.\ Its modular approach allowed for easy customization while maintaining consistent styling with Tailwind CSS\@.\cite[ShadCN]{shadcn}
+
+ShadCN improved development efficiency by offering pre-built, accessible components that could be easily tailored to the project’s design.\ It became a key tool for building a polished and user-friendly interface.
