@@ -4,15 +4,17 @@ In this chapter the reader will find a detailed explanation of the technology st
 
 \section{Technology Stack}\label{sec:tecnology-stack}
 
-In this section, we will cover all the technologies used in the project, explaining what they are, how they were implemented in the codebase and the benefit they brought to the project.\ These brief explanations will be built upon the technologies documentation and the team's experience using them.
+In this section, we will cover all the technologies used in the project, explaining what they are, how they were implemented in the codebase, providing code snippets for the reader to understand how they work and the benefit they brought to the project.\ These brief explanations will be built upon the technologies documentation and the team's experience using them.
 
 \subsection{ESLint}\label{subsec:eslint}
 
-ESLint is a powerful utility designed to detect and resolve issues in JavaScript code.\ The team opted to incorporate ESLint into their project because it helps identify errors and maintain coding standards, ensuring the code remains clean, uniform, and dependable.\ Its seamless integration with the existing technology stack and extensive configurability allows the team to adapt rules and guidelines to meet their unique requirements.
-
-By scanning the codebase, ESLint detects patterns that may signal potential problems.\ It can highlight common mistakes such as unused variables, missing semicolons, and other errors that could lead to bugs or inconsistencies.\ Additionally, it offers a broad set of rules that can be customized to enforce particular coding practices, including indentation styles, naming conventions, and documentation guidelines.\cite[ESLint]{eslint}
+ESLint is a powerful utility designed to detect and resolve issues in JavaScript code.\ The team opted to incorporate ESLint into their project because it helps identify errors and maintain coding standards, ensuring the code remains clean, uniform, and dependable.\ Its seamless integration with the existing technology stack and extensive configurability allows the team to adapt rules and guidelines to meet their unique requirements.\ By scanning the codebase, ESLint detects patterns that may signal potential problems.\ It can highlight common mistakes such as unused variables, missing semicolons, and other errors that could lead to bugs or inconsistencies.\ Additionally, it offers a broad set of rules that can be customized to enforce particular coding practices, including indentation styles, naming conventions, and documentation guidelines.\cite[ESLint]{eslint}
 
 Implementing ESLint enabled the team to enhance the quality and stability of their code, making future maintenance and debugging more straightforward.\ It also promoted consistency throughout the project, facilitating collaboration and improving code comprehension among team members.\ Overall, ESLint proved to be an essential tool for preserving the integrity and long-term maintainability of the project's codebase.
+
+In the example below, the reader can see how ESLint throws a warning for a declared variable not being used, therefore consuming unnecessary memory.
+
+\input{snippets/eslint}
 
 \subsection{Prettier}\label{subsec:prettier}
 
