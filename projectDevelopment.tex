@@ -32,7 +32,7 @@ TypeScript is a statically typed version of JavaScript that enhances code qualit
 
 Using TypeScript led to clearer, more predictable code, improving collaboration and making the codebase easier to maintain.\ The enhanced type-checking reduced runtime errors and increased confidence when refactoring.
 
-In the example below, the reader can see how TypeScript its configured in the project, with the ``strict'' flag set to true and checking all the files except the ``node_modules'' directory.\ Also, in the second code snippet, the reader can see how after running the TypeScript compiler, it catches an error because a mandatory field is missing, preventing a potential runtime issue.
+In the example below, the reader can see how TypeScript is configured in the project, with the ``strict'' flag set to true and checking all the files except the node-modules directory.\ Also, in the second code snippet, the reader can see how after running the TypeScript compiler, it catches an error because a mandatory field is missing, preventing a potential runtime issue.
 
 \input{snippets/typescript}
 
@@ -41,6 +41,10 @@ In the example below, the reader can see how TypeScript its configured in the pr
 Docker Compose is a tool that simplifies managing multi-container Docker applications.\ It allows developers to define and configure services, networks, and volumes in a single docker-compose.yml file, making it easier to set up and manage environments.\ In this project, the team used Docker Compose to streamline the database set-up for local development.\ By defining configurations in one place, they ensured consistency across development and production environments.\cite[Docker Compose]{dockerCompose}
 
 Using Docker Compose improved efficiency by reducing setup time.\ It also enhanced collaboration by providing a reproducible environment, making it easier for team members to work on the project.
+
+In the example below, the reader can see how the docker-compose.yml file is configured to set up a PostgreSQL database service.\ The file defines the image, ports, environment variables, and volumes needed to run the service.\ By using Docker Compose, the team simplified the database setup process and ensured consistency across environments since everyone could use the same configuration regardless of their local setup.
+
+\input{snippets/docker}
 
 \subsection{Git}\label{subsec:git}
 
