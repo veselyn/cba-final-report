@@ -56,6 +56,10 @@ GitHub Actions is a CI/CD (Continuous Integration and Continuous Deployment) too
 
 GitHub Actions improved efficiency by reducing manual tasks and catching issues early through automated testing.\ It also enhanced collaboration by providing clear feedback on code changes, ensuring a smoother and more reliable development cycle.
 
+In the example below, the reader can see how a GitHub Actions workflow is defined in a YAML file.\ It defines a workflow for Continuous Integration and Continuous Deployment (CI/CD). It triggers on any push to any branch and includes two jobs: `build` and `release`.\ The `build` job checks out the code, installs Nix, caches the Nix store, builds artifacts, and uploads them.\ The `release` job, which depends on the `build` job, handles the release process using the `release-please-action`, downloads artifacts, and uploads them to a GitHub release if a new release is created.
+
+\input{snippets/github-actions}
+
 \subsection{Postgres}\label{subsec:postgres}
 
 Postgres is a powerful, open-source relational database management system known for its reliability, scalability, and advanced features.\ It supports complex queries, data types, and ACID compliance, ensuring data integrity and efficient performance.\ In this project, the team used Postgres to store and manage application data.\ It was chosen for its robust support of structured data, efficient indexing, and ability to handle large datasets.\ It is also one of the most popular databases in the industry, making it easier to find resources and support.\cite[Postgres]{postgres}
