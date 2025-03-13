@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.1](https://github.com/veselyn/cba-final-report/compare/v1.3.0...v1.3.1) (2025-03-13)
+
+
+### Bug Fixes
+
+* add github actions example ([fba27a2](https://github.com/veselyn/cba-final-report/commit/fba27a2648491ec7f0a1556130de6f03dd8e56e6))
+* add kysely examples ([21808b3](https://github.com/veselyn/cba-final-report/commit/21808b3daa006e3254470023b3ed67169db1eef3))
+* add shadcn example ([46c8d0c](https://github.com/veselyn/cba-final-report/commit/46c8d0ce2b6ccc8bf33c8db2c9f842f8545bf15e))
+* add ssr/csr examples ([44e7d24](https://github.com/veselyn/cba-final-report/commit/44e7d2466ec299f5ae721e5b08303f7bbfd48c88))
+* add tailwind examples ([75678a6](https://github.com/veselyn/cba-final-report/commit/75678a6acddb50f21f682188e998c90c09795521))
+* brand guielines page ([097a17e](https://github.com/veselyn/cba-final-report/commit/097a17ed621d62d3fffd22e5f84d4ccfcd1fc993))
+* remove blank lines from snippets ([84eff1b](https://github.com/veselyn/cba-final-report/commit/84eff1bfdd42c89d07495f418698c614ebdcce1e))
+* scaffold shadcn example ([d0d8ceb](https://github.com/veselyn/cba-final-report/commit/d0d8cebb876f9d27184ba95a2b97c2184fbefffb))
+* stop gobbling characters ([a09667b](https://github.com/veselyn/cba-final-report/commit/a09667b3e27dfaee397a00e63dd8d557b76ca111))
+* typo ([3d1f795](https://github.com/veselyn/cba-final-report/commit/3d1f795d3211ae836febee0a55412fb9fa58e033))
+
 ## [1.3.0](https://github.com/veselyn/cba-final-report/compare/v1.2.3...v1.3.0) (2025-03-13)
 
 
