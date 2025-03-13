@@ -74,9 +74,13 @@ Kysely is a type-safe SQL query builder for TypeScript that allows developers to
 
 Kysely supports database migrations, allowing developers to manage schema changes systematically.\ Migrations are defined using TypeScript files, which apply changes like creating tables, altering columns, or seeding initial data.\ In this project, the team used Kysely migrations to track and apply database schema changes consistently.\ Each migration was version-controlled, ensuring smooth transitions between schema updates and making it easier to maintain database integrity across environments.
 
+\input{snippets/kysely-migrations}
+
 \subsubsection{Kysely seeds}\label{subsubsec:kysely-seeds}
 
 Kysely provides a straightforward approach to seeding databases, allowing developers to populate tables with initial or test data.\ This is useful for setting up development environments.\ The team used Kysely seeding to pre-fill the database with essential data for local development and automated testing.\ This ensured a consistent starting point for new environments and improved test reliability.
+
+\input{snippets/kysely-seeds}
 
 \subsubsection{Kysely query builder}\label{subsubsec:kysely-query-builder}
 
@@ -84,11 +88,15 @@ Kysely's query builder allows developers to construct SQL queries using a fluent
 
 The Kysely query builder enhanced productivity by allowing the team to write complex queries without losing type safety.\ This led to fewer runtime errors and improved confidence in database operations.
 
+\input{snippets/kysely-query-builder}
+
 \subsubsection{Kysely code generation}\label{subsubsec:kysely-code-generation}
 
 Kysely supports code generation to create TypeScript types from existing database schemas.\ This ensures that the query builder is fully type-safe and aligns with the database structure.\ The team used Kysely's code generation tool to automatically generate TypeScript types from the PostgreSQL schema.\ This ensured that database changes were reflected in the codebase, reducing the risk of mismatches between the database and application code.
 
 Kysely code generation improved type accuracy, reduced manual type maintenance, and ensured database schema changes were reflected throughout the codebase, enhancing overall code reliability.
+
+\input{snippets/kysely-codegen}
 
 \subsection{NextJs (SSR + CSR)}\label{subsec:nextjs-(ssr-+-csr)}
 

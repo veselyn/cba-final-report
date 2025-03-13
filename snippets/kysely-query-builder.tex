@@ -1,0 +1,27 @@
+\begin{minted}[linenos,
+               numbersep=5pt,
+               gobble=2,
+               frame=lines,
+               framesep=2mm]{typescript}
+
+const user = (await getServerSession(authOptions))!.user!;
+
+const defaultValues = await db
+  .selectFrom("users")
+  .innerJoin("user_data", "user_data.user_id", "users.id")
+  .select((eb) => [
+    "user_data.first_name",
+    "user_data.last_name",
+    "user_data.birthdate",
+    "user_data.origin_country",
+    "user_data.description",
+    jsonArrayFrom(
+      eb
+        .selectFrom("user_languages")
+        .select(["language_id", "level"])
+        .where("user_id", "=", user.id!),
+    ).as("languages"),
+  ])
+  .where("users.id", "=", user.id!)
+  .executeTakeFirstOrThrow();
+\end{minted}
