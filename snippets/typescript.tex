@@ -34,7 +34,7 @@
 
 \begin{minted}[linenos,
                numbersep=5pt,
-               gobble=2,
+               gobble=0,
                frame=lines,
                framesep=2mm]{sh}
 $ npm run tsc
@@ -42,19 +42,8 @@ $ npm run tsc
 > chronocademy@0.1.0 tsc
 > tsc
 
-app/app/profile/account-information/page.tsx:64:11 - error TS2741: Property 'picture' is missing in type '{ firstName: string; lastName: string; birthdate: Date; countryOfBirth: string; profileDescription: string; languages: { language: string; languageLevel: string; }[]; }' but required in type '{ languages: { language: string; languageLevel: string; }[]; birthdate: Date; picture: File | null; firstName: string; lastName: string; countryOfBirth: string; profileDescription: string; }'.
-
-64           defaultValues={{
-             ~~~~~~~~~~~~~
-
-  app/app/profile/account-information/client.tsx:51:5
-    51     picture: z.instanceof(File).nullable(),
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    'picture' is declared here.
-  app/app/profile/account-information/client.tsx:77:3
-    77   defaultValues: z.infer<typeof AccountInformationClientFormSchema>;
-         ~~~~~~~~~~~~~
-    The expected type comes from property 'defaultValues' which is declared here on type 'IntrinsicAttributes & { availableCountries: { id: number; country: string; }[]; availableTimezones: { id: number; timezone: string; }[]; availableLanguages: { id: number; language: string; }[]; defaultValues: { ...; }; defaultPictureUrl: string | null; }'
+app/app/profile/account-information/page.tsx:64:11 - error TS2741: Property
+'picture' is missing in type...
 
 Found 1 error in app/app/profile/account-information/page.tsx:64
 \end{minted}

@@ -32,6 +32,10 @@ TypeScript is a statically typed version of JavaScript that enhances code qualit
 
 Using TypeScript led to clearer, more predictable code, improving collaboration and making the codebase easier to maintain.\ The enhanced type-checking reduced runtime errors and increased confidence when refactoring.
 
+In the example below, the reader can see how TypeScript its configured in the project, with the ``strict'' flag set to true and checking all the files except the ``node_modules'' directory.\ Also, in the second code snippet, the reader can see how after running the TypeScript compiler, it catches an error because a mandatory field is missing, preventing a potential runtime issue.
+
+\input{snippets/typescript}
+
 \subsection{Docker compose}\label{subsec:docker-compose}
 
 Docker Compose is a tool that simplifies managing multi-container Docker applications.\ It allows developers to define and configure services, networks, and volumes in a single docker-compose.yml file, making it easier to set up and manage environments.\ In this project, the team used Docker Compose to streamline the database set-up for local development.\ By defining configurations in one place, they ensured consistency across development and production environments.\cite[Docker Compose]{dockerCompose}
