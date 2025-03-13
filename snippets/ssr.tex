@@ -1,0 +1,49 @@
+\begin{minted}[linenos,
+               numbersep=5pt,
+               gobble=0,
+               frame=lines,
+               framesep=2mm]{typescript}
+
+export default async function LearningPreferencesPage() {
+  const availableSkills = db
+    .selectFrom("skills")
+    .select(["id", "category", "skill"])
+    .orderBy("category", "asc")
+    .orderBy("skill", "asc")
+    .execute()
+    .then((skills) =>
+      skills.reduce<Map<string, typeof skills>>((acc, skill) => {
+        const categorySkills = acc.get(skill.category) ?? [];
+        categorySkills.push(skill);
+        acc.set(skill.category, categorySkills);
+        return acc;
+      }, new Map()),
+    );
+  const user = (await getServerSession(authOptions))!.user!;
+  const defaultValues = await db
+    .selectFrom("user_skills")
+    .innerJoin("skills", "skills.id", "user_skills.skill_id")
+    .select(["user_skills.skill_id", "skills.category"])
+    .where("user_id", "=", user.id)
+    .where("type", "=", "learn")
+    .execute();
+  return (
+    <TabsContent value="learning-preferences" className="mt-16">
+      <Card>
+        <CardHeader>
+          <CardTitle>Learning preferences</CardTitle>
+        </CardHeader>
+        <LearningPreferencesClient
+          availableSkills={await availableSkills}
+          defaultValues={{
+            skills: defaultValues.map((skill) => ({
+              category: skill.category,
+              skill: skill.skill_id.toString(),
+            })),
+          }}
+        />
+      </Card>
+    </TabsContent>
+  );
+}
+\end{minted}

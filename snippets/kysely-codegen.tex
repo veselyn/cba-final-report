@@ -15,9 +15,7 @@ export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
   : ColumnType<T, T | undefined, T>;
 
 export type Numeric = ColumnType<string, number | string>;
-
 export type Timestamp = ColumnType<Date, Date | string>;
-
 export interface Users {
   created_at: Generated<Timestamp>;
   email: string;
@@ -25,7 +23,6 @@ export interface Users {
   password: string;
   updated_at: Generated<Timestamp>;
 }
-
 export interface DB {
   countries: Countries;
   languages: Languages;

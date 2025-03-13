@@ -4,9 +4,6 @@
     gobble=0,
     frame=lines,
     framesep=2mm]{typescript}
-import { DB } from "@/app/database";
-import type { Kysely } from "kysely";
-import { hash } from "bcrypt";
 
 type User = {
   email: string;
@@ -18,7 +15,6 @@ type User = {
   description: string;
   originCountry: string;
 };
-
 export async function seed(db: Kysely<DB>): Promise<void> {
   const users: User[] = [
     {
@@ -43,7 +39,6 @@ export async function seed(db: Kysely<DB>): Promise<void> {
       originCountry: "Argentina",
     },
   ];
-
   for (const user of users) {
     const userIdPromise = db
       .insertInto("users")
@@ -54,14 +49,12 @@ export async function seed(db: Kysely<DB>): Promise<void> {
       .returning("id")
       .executeTakeFirstOrThrow()
       .then(({ id }) => id);
-
     const timezoneIdPromise = db
       .selectFrom("timezones")
       .select("id")
       .where("timezone", "=", user.timezone)
       .executeTakeFirstOrThrow()
       .then(({ id }) => id);
-
     const countryIdPromise = db
       .selectFrom("countries")
       .select("id")
@@ -72,7 +65,6 @@ export async function seed(db: Kysely<DB>): Promise<void> {
     const userId = await userIdPromise;
     const timezoneId = await timezoneIdPromise;
     const countryId = await countryIdPromise;
-
     await db
       .insertInto("user_data")
       .values({
