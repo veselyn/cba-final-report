@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.3.0](https://github.com/veselyn/cba-final-report/compare/v1.2.3...v1.3.0) (2025-03-13)
+
+
+### Features
+
+* add project development references ([8f62171](https://github.com/veselyn/cba-final-report/commit/8f6217114ed17ba5f980c7767c94f8601fde74c7))
+* include raw code snippets ([cb8cce9](https://github.com/veselyn/cba-final-report/commit/cb8cce9f2bfc10d7e42e07f5e7a919e8c2acf00a))
+* plug in project development chapter ([4eb0d27](https://github.com/veselyn/cba-final-report/commit/4eb0d278a0cc10c46d7da0aeaf6b8cff3f00492b))
+
+
+### Bug Fixes
+
+* add docker example ([222a0fe](https://github.com/veselyn/cba-final-report/commit/222a0fe1b66cf3b45a211994d9d680fe81db0195))
+* add eslint snippet ([fe61774](https://github.com/veselyn/cba-final-report/commit/fe61774b67f74c2decde2a357dffe2df82f3368b))
+* add prettier example ([9dce551](https://github.com/veselyn/cba-final-report/commit/9dce551c1072b8853ad15743563c9c26175bc04f))
+* add tech stack section ([164248e](https://github.com/veselyn/cba-final-report/commit/164248e311032503796731caa668bef8c5a99621))
+* add typescript example ([8ef048b](https://github.com/veselyn/cba-final-report/commit/8ef048b2e15b3c5f02e423c18818552bc16f7896))
+* figure numbers ([c36942e](https://github.com/veselyn/cba-final-report/commit/c36942e7335ad4005296d1cb1d8ec071daecc046))
+* remove comments and implement vesie's suggestions ([a543ebc](https://github.com/veselyn/cba-final-report/commit/a543ebc151ab0adb8c7ed2a47c407d9a876c6b76))
+* update notes ([c902338](https://github.com/veselyn/cba-final-report/commit/c902338c0c66b1f9dd9454be392d57deb379bf68))
+
 ## [1.2.3](https://github.com/veselyn/cba-final-report/compare/v1.2.2...v1.2.3) (2025-03-09)
 
 
