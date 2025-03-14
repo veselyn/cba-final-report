@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/veselyn/cba-final-report/compare/v1.3.1...v1.4.0) (2025-03-14)
+
+
+### Features
+
+* update html filetype ([e14dad5](https://github.com/veselyn/cba-final-report/commit/e14dad5327750dc1b667acb6bc8dddf622eb0787))
+
 ## [1.3.1](https://github.com/veselyn/cba-final-report/compare/v1.3.0...v1.3.1) (2025-03-13)
 
 
