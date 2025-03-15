@@ -164,7 +164,12 @@ From the beginning of the project development, even from the very first code sni
 
 For the development process, being able to build and test in under 10 minutes was crucial.\ It allowed the team to get feedback quickly, catch errors early, and maintain a fast-paced development cycle.\ It can be confirmed, that this is also one of the most crucial practice of Extreme Programming.
 
-\paragraph{Continuous Integration:}
+\paragraph{Continuous Integration:} In connection with the previous practice, Continuous Integration (CI) is the practice of integrating code changes into a shared repository frequently, ideally multiple times a day.\ Each integration is verified by an automated build and automated tests, ensuring that the codebase remains stable and reliable.\ In this project, the team used GitHub Actions to implement continuous integration and deploying applications.
+
+As Ken Beck said in his book, ``Integrate and test changes after no more than a couple of hours [\ldots] I prefer a synchronous model in which my partner and I integrate after each pair-programming episode, no more than a couple of hours.\ We wait for the build to complete, and the entire test suite to run with no regressions before proceeding.''\cite[Extreme Programming]{xp}
+
+During the development phase, the team followed this practice by pushing the changes and automatically integrating it with the main codebase.\ In this way, the team ensured that the working code was always the latest stable version.
+
 \paragraph{Test-first programming:}
 
 A new practices we incorporated \textbf{micro commits}.
