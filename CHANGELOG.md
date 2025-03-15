@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.0](https://github.com/veselyn/cba-final-report/compare/v1.4.0...v1.5.0) (2025-03-15)
+
+
+### Features
+
+* conclusion ([6a02956](https://github.com/veselyn/cba-final-report/commit/6a02956ed5f571041d8c2babe0168d3fcc1ddb32))
+
+
+### Bug Fixes
+
+* add ci section within xp ([7100a7b](https://github.com/veselyn/cba-final-report/commit/7100a7b67be26ab9762bc227b1b25e504611eb6d))
+* add micro-commits paragraph ([a467be1](https://github.com/veselyn/cba-final-report/commit/a467be16a15b77f0771b457b9791f61a381551da))
+* fix table of contents ([21b4800](https://github.com/veselyn/cba-final-report/commit/21b48000802abe677dee4789a5458cba39693f2b))
+* gh actions example ([1b8cc41](https://github.com/veselyn/cba-final-report/commit/1b8cc414ee4fcac8f9e3dd6a651f297dc96176db))
+* remove notes ([ea6a424](https://github.com/veselyn/cba-final-report/commit/ea6a42411f2823cf26eb0479dc0e19a2dddfaf4f))
+* start extreme programming section ([c9cbdc7](https://github.com/veselyn/cba-final-report/commit/c9cbdc79a2557a9567b1d6dcd2ae3ce49d548b1c))
+
 ## [1.4.0](https://github.com/veselyn/cba-final-report/compare/v1.3.1...v1.4.0) (2025-03-14)
 
 
