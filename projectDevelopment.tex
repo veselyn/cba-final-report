@@ -170,6 +170,14 @@ As Ken Beck said in his book, ``Integrate and test changes after no more than a 
 
 During the development phase, the team followed this practice by pushing the changes and automatically integrating it with the main codebase.\ In this way, the team ensured that the working code was always the latest stable version.
 
-\paragraph{Test-first programming:}
+\paragraph{Micro commits - a new added practice:} Even though this practices does not belong to the Extreme Programming list, it is something the developers had implemented during the development phase.\ The idea behind micro commits is to commit the changes as soon as they are made, even if they are small.\ This practice allows the developers to keep track of the changes made, and also to be able to revert to a previous version if needed.\ It also helps to keep the codebase clean and organized.
 
-A new practices we incorporated \textbf{micro commits}.
+At the end of each pair-programming episode, the commit log was quite large but at the same time, very descriptive of every step taken.\ Here is an example of a commit log:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm]{images/commit-log}
+    \caption{Chronocademy's commit log}
+    \label{fig:figure23}
+\end{figure}
+
+As the reader can see, the commit log is very descriptive, showing every step taken during the development process.\ For example, one commit is about configuring the ``profile page'' to be mobile responsive, the next one, still linked to the same feature, is about setting that page route, and so on.\ By following this practice, reading the commit log tells a story of how the development process went.\ Allowing developers to track changes and revert to a previous version if needed.\ This brought a lot of value to the project development phase.
