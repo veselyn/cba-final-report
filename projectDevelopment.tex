@@ -125,3 +125,46 @@ Vendoring dependencies refers to the practice of including third-party libraries
 In this project, the team used ShadCN, a modern component library built on top of Radix UI and Tailwind CSS, to implement common UI elements like buttons, forms, and dialogs.\ By vendoring ShadCN components, the team ensured that their UI elements remained consistent and customizable while maintaining accessibility and seamless integration with Next.js.\ This approach improved development efficiency and provided a polished, user-friendly interface.
 
 \input{snippets/shadcn}
+
+\section[Extreme Programming]{Extreme Programming}\label{sec:extreme-programming}
+
+This section will cover the team's development process, which was based on Extreme Programming (XP) principles.\ XP is an agile software development methodology that emphasizes collaboration, feedback, and continuous improvement.\ It is designed to enhance productivity, quality, and customer satisfaction by focusing on core values like communication, simplicity, feedback, and courage.
+
+\begin{quote}
+    ``XP is a style of software development focusing on excellent application of programming techniques, clear communication, and teamwork which allows us to accomplish things we previously could not even image.''\cite[Extreme Programming]{xp}
+\end{quote}
+
+\subsection{Primary practices}\label{subsec:primary-practices}
+Extreme programming was one of the first agile development methodologies introduced in the late 1990s.\ It's creator, Ken Beck, has documented some primary practices that are the core of the XP. These are:
+\begin{enumerate}
+    \item Sit together
+    \item Whole team
+    \item Informative workspace
+    \item Energized work
+    \item Pair programming
+    \item Stories
+    \item Weekly cycle
+    \item Quarterly cycle
+    \item Slack
+    \item Ten-minute build
+    \item Continuous integration
+    \item Test-first programming
+    \item Incremental design
+\end{enumerate}
+
+This document is not intended to explain XP in depth but it will cover some of the practices used by the developers in this project.
+
+\paragraph{Pair programming:} As the name suggests, pair programming is the practice of two developers working together on the same codebase and feature at the same time.\ In other words, ``Pair programming is a dialog between two people sitting simultaneously programming and trying to program better.''\cite[Extreme Programming]{xp}.\ We, the developers, have decided to implement this practices in our project because we, first enjoy pairing, but also because we believe in the benefits it brings to the project.\ For example, this platform did not have strict and clear requirements from the beginning, so by sitting together, we were able to discuss and decide the best way to implement a feature, and also to catch bugs and errors early in the development process.
+
+Another benefit of this practices is knowledge sharing.\ By working together, were able to learn together how to use the tools, technologies and framework used in Chronocademy.\ But also we learned together about the project itself, like what a specific part of the code is doing and why.
+
+\paragraph{Ten-minute build:} ``Automatically build the whole system and run all the tests in ten minutes.\ A build that takes longer than ten minutes will be used much less often, missing the opportunity for feedback.\ A shorter build doesn't give you time to drink coffee.''\cite[Extreme Programming]{xp}
+
+From the beginning of the project development, even from the very first code snippet, the team worked on the deployment pipelines.\ The goal was to be able to build the project in less than ten minutes, to fasten the feedback cycle.\ To achieve this, the team used GitHub Actions, already covered in the section above, allowing concurrent builds if needed and caching the node-modules directory to speed up the process.
+
+For the development process, being able to build and test in under 10 minutes was crucial.\ It allowed the team to get feedback quickly, catch errors early, and maintain a fast-paced development cycle.\ It can be confirmed, that this is also one of the most crucial practice of Extreme Programming.
+
+\paragraph{Continuous Integration:}
+\paragraph{Test-first programming:}
+
+A new practices we incorporated \textbf{micro commits}.
