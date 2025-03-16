@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.1](https://github.com/veselyn/cba-final-report/compare/v1.5.0...v1.5.1) (2025-03-16)
+
+
+### Bug Fixes
+
+* format abstract ([45e15c6](https://github.com/veselyn/cba-final-report/commit/45e15c6e0d250bc7f0f6c95b908bbb0ea89a14e0))
+* format introduction ([6defd51](https://github.com/veselyn/cba-final-report/commit/6defd518c66a51a3e6f5dda7c14ba725efb69d31))
+* format project analysis ([a0f3094](https://github.com/veselyn/cba-final-report/commit/a0f3094a16b375080c2eb7823d8fdcdb19ecc469))
+* format project design ([1a4563c](https://github.com/veselyn/cba-final-report/commit/1a4563cafc068a9b5430b2dbaa0431cfc11c23f9))
+* format project development ([f5a5255](https://github.com/veselyn/cba-final-report/commit/f5a52559a421cda9a3db83bc3a9e09c18fd0de5d))
+
 ## [1.5.0](https://github.com/veselyn/cba-final-report/compare/v1.4.0...v1.5.0) (2025-03-15)
 
 
