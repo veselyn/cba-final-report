@@ -56,7 +56,9 @@ GitHub Actions is a CI/CD (Continuous Integration and Continuous Deployment) too
 
 GitHub Actions improved efficiency by reducing manual tasks and catching issues early through automated testing.\ It also enhanced collaboration by providing clear feedback on code changes, ensuring a smoother and more reliable development cycle.
 
-In the example below, the GitHub Actions workflow is designed to deploy a project to production.\ It triggers on any push to the `master` branch or manually via the workflow dispatch event.\ The workflow consists of two jobs: `build` and `deploy`.\ The `build` job runs on `ubuntu-latest` and includes several steps: it checks out the repository to access the code, sets up Node.js version 20 to ensure the correct runtime environment, configures GitHub Pages for deployment, restores the cache for `.next/cache` to speed up subsequent builds, installs project dependencies, creates a `.env` file and sets environment variables from secrets for secure configuration, builds the project with Next.js to generate the production-ready files, and uploads the build artifacts for deployment.\ The `deploy` job, which depends on the `build` job, also runs on `ubuntu-latest` and deploys the artifacts to GitHub Pages, making the site live.\ The workflow specifies permissions for reading contents, writing to pages, and writing id-tokens, and it uses a concurrency group named `pages` with `cancel-in-progress` set to false to manage concurrent deployments.
+In the example below, the GitHub Actions workflow is designed to deploy a project to production.\ It triggers on any push to the `master` branch or manually via the workflow dispatch event.\ The workflow consists of two jobs: `build` and `deploy`.\ The `build` job runs on `ubuntu-latest` and includes several steps: it checks out the repository to access the code, sets up Node.js version 20 to ensure the correct runtime environment, configures GitHub Pages for deployment, restores the cache for `.next/cache` to speed up subsequent builds, installs project dependencies, creates a `.env` file and sets environment variables from secrets for secure configuration, builds the project with Next.js to generate the production-ready files, and uploads the build artifacts for deployment.
+
+The `deploy` job, which depends on the `build` job, also runs on `ubuntu-latest` and deploys the artifacts to GitHub Pages, making the site live.\ The workflow specifies permissions for reading contents, writing to pages, and writing id-tokens, and it uses a concurrency group named `pages` with `cancel-in-progress` set to false to manage concurrent deployments.
 
 \input{snippets/github-actions}
 
@@ -119,10 +121,9 @@ Using Tailwind CSS improved development speed, ensured design consistency, and r
 \input{snippets/tailwind}
 
 \subsection{ShadCN (ui components)}\label{subsec:shadcn-(ui-components)}
+In this project, the team used ShadCN, a modern component library built on top of Radix UI and Tailwind CSS, to implement common UI elements like buttons, forms, and dialogs.\ By vendoring ShadCN components, the team ensured that their UI elements remained consistent and customizable while maintaining accessibility and seamless integration with Next.js.\ This approach improved development efficiency and provided a polished, user-friendly interface.
 
 Vendoring dependencies refers to the practice of including third-party libraries or components directly within a project's codebase rather than relying on external package managers or repositories.\ This approach ensures that the project remains self-contained and can function independently of external sources, which can be particularly useful for maintaining stability and consistency.\cite[ShadCN]{shadcn}
-
-In this project, the team used ShadCN, a modern component library built on top of Radix UI and Tailwind CSS, to implement common UI elements like buttons, forms, and dialogs.\ By vendoring ShadCN components, the team ensured that their UI elements remained consistent and customizable while maintaining accessibility and seamless integration with Next.js.\ This approach improved development efficiency and provided a polished, user-friendly interface.
 
 \input{snippets/shadcn}
 
